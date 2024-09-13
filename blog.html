@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - The Guinea Pigs</title>
+    <meta name="description" content="See all the published posts about the daily life of two cute guinea pigs named Nala and Evangeline." />
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/icon" href="/images/favicon.ico" />
+    <script src="/js/app.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/2f7002576b.js" crossorigin="anonymous"></script>
+    <!-- Hotjar Tracking Code for The Guinea Pigs -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 5075209, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="header-navbar">
+        <div class="branding">
+          <a href="/" title="The Guinea Pigs"> The Guinea Pigs </a>
+        </div>
+        <div class="navigation-collapsable" id="navigation-collapsable">
+          <ul class="navigation navigation-horizontal">
+            <li>
+              <a href="/" class="navigation-link">Home</a>
+            </li>
+            <li>
+              <a href="./blog.html" class="navigation-link active">Blog</a>
+            </li>
+            <li>
+              <a href="./about.html" class="navigation-link">About</a>
+            </li>
+            <li>
+              <a href="./contact.html" class="navigation-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div id="toggle-nav-button" class="navigation-toggler">
+          <i class="fa fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section-wrapper flex-v">
+        <h1 class="section-title center">All posts</h1>
+        <div id="message-container-posts" class="message-container"></div>
+        <div id="loading-wrapper">
+          <div class="banner-container flex-v">
+            <div class="banner flex-h">
+              <div class="banner-content">
+                <div class="banner-img skeleton"></div>
+              </div>
+              <div class="banner-content">
+                <div class="banner-inner flex-v">
+                  <div class="banner-title skeleton skeleton-text skeleton-text-short"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                </div>
+              </div>
+            </div>
+            <div class="banner flex-h">
+              <div class="banner-content">
+                <div class="banner-img skeleton"></div>
+              </div>
+              <div class="banner-content">
+                <div class="banner-inner flex-v">
+                  <div class="banner-title skeleton skeleton-text skeleton-text-short"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                </div>
+              </div>
+            </div>
+            <div class="banner flex-h">
+              <div class="banner-content">
+                <div class="banner-img skeleton"></div>
+              </div>
+              <div class="banner-content">
+                <div class="banner-inner flex-v">
+                  <div class="banner-title skeleton skeleton-text skeleton-text-short"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                  <div class="banner-description skeleton skeleton-text"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="post-container" class="banner-container flex-v"></div>
+        <div class="center">
+          <button id="load-posts-btn" class="btn btn-lrg primary-btn hidden">Load more posts</button>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="copyright">&copy; 2024 - The Guinea Pigs</div>
+      <div class="footer-decoration">|</div>
+      <div class="footer-links flex-h">
+        <a href="./about.html" class="decorated-link">About</a>
+        <a href="./contact.html" class="decorated-link">Contact</a>
+      </div>
+    </footer>
+  </body>
+</html>

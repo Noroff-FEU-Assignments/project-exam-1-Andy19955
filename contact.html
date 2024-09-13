@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us - The Guinea Pigs</title>
+    <meta name="description" content="Send us a message by filling out the contact form if you have any questions or just want to get in touch with us." />
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/icon" href="/images/favicon.ico" />
+    <script src="/js/app.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/2f7002576b.js" crossorigin="anonymous"></script>
+    <!-- Hotjar Tracking Code for The Guinea Pigs -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 5075209, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="header-navbar">
+        <div class="branding">
+          <a href="/" title="The Guinea Pigs"> The Guinea Pigs </a>
+        </div>
+        <div class="navigation-collapsable" id="navigation-collapsable">
+          <ul class="navigation navigation-horizontal">
+            <li>
+              <a href="/" class="navigation-link">Home</a>
+            </li>
+            <li>
+              <a href="./blog.html" class="navigation-link">Blog</a>
+            </li>
+            <li>
+              <a href="./about.html" class="navigation-link">About</a>
+            </li>
+            <li>
+              <a href="./contact.html" class="navigation-link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div id="toggle-nav-button" class="navigation-toggler">
+          <i class="fa fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section-wrapper">
+        <div class="section-content flex-v">
+          <h1 class="section-title">Contact us</h1>
+          <p>
+            Do you have any questions for us (or our humans) or just want to get in touch? We would love to hear from you! Fill in the form below, hit that "Send"-button and we will respond as soon as
+            possible after we are done eating and napping!
+          </p>
+          <p>~ Nala and Evangeline</p>
+          <form>
+            <div class="form-group">
+              <div>
+                <label for="name">Your name</label>
+                <small>(min. 6 characters)</small>
+              </div>
+              <input type="text" class="form-input" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your e-mail</label>
+              <input type="email" class="form-input" id="email" name="email" placeholder="Your e-mail address" required />
+            </div>
+            <div class="form-group">
+              <div>
+                <label for="subject">Subject</label>
+                <small>(min. 16 characters)</small>
+              </div>
+              <input type="text" class="form-input" id="subject" name="subject" placeholder="Where do you buy equipment?" required />
+            </div>
+            <div class="form-group">
+              <div>
+                <label for="message">Your message</label>
+                <small>(min. 26 characters)</small>
+              </div>
+              <textarea id="message" class="form-input" rows="10" placeholder="Can you please add more information about where you are buying the equipment for the guinea pigs?" required></textarea>
+            </div>
+            <div id="message-container-contact" class="message-container hidden"></div>
+            <div class="center">
+              <button type="submit" id="send-btn" class="btn btn-lrg primary-btn">Send message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="copyright">&copy; 2024 - The Guinea Pigs</div>
+      <div class="footer-decoration">|</div>
+      <div class="footer-links flex-h">
+        <a href="./about.html" class="decorated-link">About</a>
+        <a href="./contact.html" class="decorated-link">Contact</a>
+      </div>
+    </footer>
+  </body>
+</html>
